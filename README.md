@@ -16,25 +16,28 @@
 Recently, a factory manager found that there were a number of orders which could not be completed on schedule and caused the decline of the company’s profit. After an investigation, it was found that the three plants were not fully utilized because there was no good planning of the production schedule for the three plants, causing the utilization of the plants to become low.
 
 ## Steel-Making Production Line Scheduler (PLS)
-In this project, We are to create an application that helps the company of steel-making manufacturer to schedule their production in order to produce the best utilization of the three plants (X, Y, Z) that produce 300, 400 and 500 products a day respectively. 
+In this project, We are to create an application that helps the steel-making manufacturer to schedule their production in order to produce the best utilization of the three plants (X, Y, Z) that produce 300, 400 and 500 products per day respectively. 
 
-## Aim
-- To apply the theory of process scheduling which is learned from COMP2432 to a daily-life scenario and to produce a Schedule for each scheduling algorithm implemented.
+## Gain
+- applied the theory of process scheduling which is learned from COMP2432 to a daily-life scenario and to produce a Schedule for each scheduling algorithm implemented.
+- applied the concepts below through implementing fork() and pipe() in Scheduling Module:
+    - process creation, management and control 
+    - inter-process communication with unnamed pipe 
 
 ## Architecture
 - Input Module
-- Scheduling Module
+- Scheduling Module 
 - Output Module
 
 ## Features
 - Command-Line User Interface (Input Module)
     - to allow users to provide info about the orders
     - to perform the functionalities as described below:
-- Generating schedules by Kernel through implementing 3 scheduling algorithms (Scheduling Module)
+- Generating schedules through implementing 3 different scheduling algorithms (Scheduling Module)
 - Formatted output of the Schedules (Output Module)
 - Formatted output of the Analysis Report comparing the algorithms (Output Module)
 
-## Algorithms
+## Scheduling Algorithms
 - First-Come-First-Served Scheduling (FCFS)
 - Priority Scheduling Scheduling (PR)
 - Shortest Job First Scheduling (SJF)
