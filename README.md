@@ -7,7 +7,7 @@
 - Project Period: April, 2024
 
 ## Programming Language 
-- C (gcc in Linux is used to compile this project)
+- C 
 
 ## Content
 - PLS_G52.c (source code)
